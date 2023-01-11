@@ -10,9 +10,9 @@
 
 ## Tests
 
-## Presentation 
+## Präsentation 
 
 Zu der [Präsentation](./presentation.md)
 
 ## License
-Projekt ist [MIT lizensiert](./LICENSE)
+Projekt ist [MIT lizenziert](./LICENSE)
