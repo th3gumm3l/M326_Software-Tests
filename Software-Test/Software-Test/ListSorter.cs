@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Software_Tests
+namespace Software_Test
 {
-    public class Calculator
+    public class ListSorter
     {
-        public int Add(int a, int b)
+        public List<int> Sort(List<int> list)
         {
-            return a + b;
+            list.Sort();
+            return list;
         }
     }
 }

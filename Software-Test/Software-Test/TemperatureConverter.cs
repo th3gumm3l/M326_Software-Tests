@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Software_Tests
+namespace Software_Test
 {
     public class TemperatureConverter
     {
@@ -13,5 +13,4 @@ namespace Software_Tests
             return (fahrenheit - 32) * 5 / 9;
         }
     }
-
 }

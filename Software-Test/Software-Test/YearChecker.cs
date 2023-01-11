@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Software_Tests
+namespace Software_Test
 {
     public class YearChecker
     {
@@ -28,5 +28,4 @@ namespace Software_Tests
             }
         }
     }
-
 }

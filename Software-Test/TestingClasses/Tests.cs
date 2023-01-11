@@ -1,6 +1,6 @@
-using Software_Tests;
+using Software_Test;
 
-namespace Tests
+namespace TestingClasses
 {
     public class Tests
     {

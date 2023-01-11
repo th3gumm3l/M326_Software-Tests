@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Software_Tests
+namespace Software_Test
 {
-    internal class Main
+    public class Calculator
     {
-        static void main(string[] args)
+        public int Add(int a, int b)
         {
-            
+            return a + b;
         }
     }
 }
