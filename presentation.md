@@ -8,11 +8,6 @@
    Demian, Eljia, Tim, Xavier & Yannic
 </p>
 
-## Tests
+## Powerpoint
 
-## Präsentation 
-
-Zu der [Präsentation](./presentation.md)
-
-## License
-Projekt ist [MIT lizenziert](./LICENSE)
+//Add pages here, when done
