@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculator.cs" />
+    <Compile Include="DictionaryValueChecker.cs" />
+    <Compile Include="EmailValidator.cs" />
+    <Compile Include="ListSorter.cs" />
     <Compile Include="main.cs" />
+    <Compile Include="PrimeChecker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringProcessor.cs" />
+    <Compile Include="StringReverser.cs" />
+    <Compile Include="TemperatureConverter.cs" />
+    <Compile Include="WordChecker.cs" />
+    <Compile Include="YearChecker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

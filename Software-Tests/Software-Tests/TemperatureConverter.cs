@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Software_Tests
 {
-    internal class Main
+    public class TemperatureConverter
     {
-        static void main(string[] args)
+        public double FahrenheitToCelsius(double fahrenheit)
         {
-            
+            return (fahrenheit - 32) * 5 / 9;
         }
     }
+
 }

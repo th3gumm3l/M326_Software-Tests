@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Software_Tests
 {
-    internal class Main
+    public class Calculator
     {
-        static void main(string[] args)
+        public int Add(int a, int b)
         {
-            
+            return a + b;
         }
     }
 }

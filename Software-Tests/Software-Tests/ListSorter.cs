@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Software_Tests
 {
-    internal class Main
+    public class ListSorter
     {
-        static void main(string[] args)
+        public List<int> Sort(List<int> list)
         {
-            
+            list.Sort();
+            return list;
         }
     }
 }

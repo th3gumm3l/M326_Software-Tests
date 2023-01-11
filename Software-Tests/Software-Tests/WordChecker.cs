@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Software_Tests
 {
-    internal class Main
+    public class WordChecker
     {
-        static void main(string[] args)
+        public bool IsPalindrome(string word)
         {
-            
+            return word.ToLower() == new string(word.ToLower().Reverse().ToArray());
         }
     }
 }

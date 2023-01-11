@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Software_Tests
 {
-    internal class Main
+    public class StringProcessor
     {
-        static void main(string[] args)
+        public int CountVowels(string s)
         {
-            
+            return s.Count(c => "aeiouAEIOU".Contains(c));
         }
     }
+
 }
