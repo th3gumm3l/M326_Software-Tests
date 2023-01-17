@@ -10,7 +10,11 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  build_and_test:
+
+    env:
+      BUILD_CONFIG: 'Release'
+      SOLUTION: 'Software-Test/Software-Test.sln'
 
     runs-on: ubuntu-latest
 
@@ -21,8 +25,8 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore $SOLUTION
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build $SOLUTION --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test $SOLUTION --no-build --verbosity normal
