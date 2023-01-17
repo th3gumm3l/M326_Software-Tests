@@ -9,10 +9,11 @@
 </p>
 
 ## Tests
+Zu den [Tests](./Software-Test/)
 
 ## Präsentation 
 
-Zu der [Präsentation](./presentation.md)
+Zu der [Präsentation](./src/presentation/)
 
 ## License
 Projekt ist [MIT lizenziert](./LICENSE)
